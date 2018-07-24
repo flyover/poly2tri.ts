@@ -1,0 +1,35 @@
+{
+  "name": "@flyover/poly2tri",
+  "version": "1.0.0",
+  "description": "A TypeScript port of poly2tri",
+  "main": "poly2tri/poly2tri.js",
+  "types": "poly2tri/poly2tri.ts",
+  "scripts": {
+    "build": "tsc -p testbed",
+    "watch": "tsc -p testbed --watch",
+    "start": "node testbed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyover/poly2tri.ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flyover/poly2tri.ts/issues"
+  },
+  "homepage": "https://github.com/flyover/poly2tri.ts#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "node-fetch": "^2.2.0",
+    "plugin-typescript": "^8.0.0",
+    "source-map-support": "^0.5.6",
+    "systemjs": "^0.21.4",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@types/node": "^10.5.2",
+    "@types/systemjs": "^0.20.6"
+  }
+}
